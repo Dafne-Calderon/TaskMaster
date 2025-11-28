@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Título:" />
+
+                <EditText
+                    android:id="@+id/etTitulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Ej: Entregar informe" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Categoría:" />
+
+                <Spinner
+                    android:id="@+id/spnCategoriaForm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/categorias_array" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prioridad:" />
+
+        <RadioGroup
+            android:id="@+id/rgPrioridad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbBaja"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Baja" />
+
+            <RadioButton
+                android:id="@+id/rbMedia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Media" />
+
+            <RadioButton
+                android:id="@+id/rbAlta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alta" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Importancia:" />
+
+        <RatingBar
+            android:id="@+id/ratingImportancia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1.0" />
+
+        <CheckBox
+            android:id="@+id/cbCompletadaForm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marcar como completada" />
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar tarea"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>
+

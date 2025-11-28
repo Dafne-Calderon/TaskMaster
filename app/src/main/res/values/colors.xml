@@ -1,0 +1,11 @@
+<resources>
+    <!-- Paleta Pastel Celeste -->
+    <color name="colorPrimary">#A8D8FF</color>        <!-- Celeste pastel -->
+    <color name="colorPrimaryDark">#8FC7F5</color>   <!-- Un poco más oscuro -->
+    <color name="colorAccent">#6BB6F0</color>        <!-- Detalles -->
+    <color name="colorBackground">#EAF6FF</color>    <!-- Fondo muy claro -->
+    <color name="colorTextPrimary">#1E3A5F</color>   <!-- Azul elegante -->
+    <color name="colorTextSecondary">#4F6E8C</color> <!-- Texto suave -->
+    <color name="colorCardBackground">#FFFFFF</color> <!-- Tarjetas blancas -->
+    <color name="colorButton">#A8D8FF</color>         <!-- Botones pasteles -->
+</resources>
