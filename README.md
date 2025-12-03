@@ -17,4 +17,4 @@ La app permite agregar nuevas tareas, clasificarlas por categoría, asignar prio
 ---
 
 ```bash
-git clone https://github.com/Dafne-Calderon/TaskMaster.git
+https://github.com/Dafne-Calderon/TaskMaster.git
